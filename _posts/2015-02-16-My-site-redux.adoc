@@ -1,0 +1,11 @@
+# My site, redux
+
+:hp-image: https://ununsplash.imgix.net/photo-1422479516648-9b1f0b6e8da8?q=75&fm=jpg&s=c5f2b3df2a4c71532b3b354b8766503c
+:published_at: 2015-02-16
+:hp-tags: website, therebelrobot, front-end, PGP, encryption
+
+So I decided today to take down the massive monstrocity that was my website. It was horribly outdated, over-engineered, and pain to upkeep. I've opted for a new minimalistic design I was using for my github pages site, and it is looking slick. If you want to take a look at it, link:http://therebelrobot.com[feel free to].
+
+I also finally got an invite to link:http://keybase.io/therebelrobot[Keybase] from a link:http://keybase.io/bang[contributor] of the iojs project, and I have to say, I am totally excited to be a pre-beta user. Having a publicly accessible PGP public key really does help one feel more leet. 
+
+Anywho, not too much going on today, just nerdy funness.
