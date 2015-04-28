@@ -1,3 +1,13 @@
-# hello
+# Jumping into React (for an Angular junky)
 
-hello
+:hp-image: https://raw.githubusercontent.com/therebelrobot/blog/gh-pages/images/covers/angular-react-cover.jpg
+:published_at: 2015-02-12
+:hp-tags: angularjs, reactjs, front-end, architecture
+
+So I've decided to do it. I'm gonna make the leap. I've been pussy-footing around far too much and I just need to man-up and do it.
+
+I'm going to learn React.
+
+But let me be very clear about something, I am not abandoning Angular. Not yet at least. I have enjoyed my foray into the ngWorld and hope to continue working in it for a good long while (and my employer works in it, so there's that too.). The consistent solutions it provides for common issues like XHR requests and dependency injection are things that have made me re-think how I approach application building, and they are concepts I will continue to use, whether in the Angular framework or not. I am, however, ready to test the optimizations React can provide for the view. I've been link:http://wiredcraft.com/blog/why-we-may-ditch-angularjs-for-react/[hearing] link:http://www.quora.com/Pete-Hunt/Posts/Facebooks-React-vs-AngularJS-A-Closer-Look[a lot] about people ditching Angular to the new kid on the block, React. This however, I think is a bit misguided. Angular is a full MVC that provides everything from routing to controllers to view management. React only provides the view. So I think it's a bit of a mistake to throw out the baby with the bathwater, so to speak, when taking a look at new application structures.
+
+That being said, there are a number of ways a developer can implement the benefits of React and Flux architecture into their existing application. I'm going to be building a character-builder for my local tabletop group, and use it as an excuse to dive in and get my hands dirty with a Flux architected Angular app with React views. I'm still researching all of this, but I think it'll be a good foray into the React world. For more info on Flux/React Angular apps, check out link:https://medium.com/@gilbox/how-can-react-and-flux-help-us-create-better-stronger-faster-angular-applications-639247898fb[@gilbox/how-can-react-and-flux-help-us-create-better-stronger-faster-angular-applications]
