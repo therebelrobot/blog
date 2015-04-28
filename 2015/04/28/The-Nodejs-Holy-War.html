@@ -23,7 +23,7 @@
     <meta property="og:url" content="http://n.ode.rocks/2015/04/28/The-Nodejs-Holy-War.html" />
     <meta property="og:image" content="https://ununsplash.imgix.net/photo-1428604467652-115d9d71a7f1?dpr=2&amp;fit=crop&amp;fm=jpg&amp;h=750&amp;q=75&amp;w=1250" />
     <meta property="article:published_time" content="2015-04-28T06:00:00.000Z" />
-    <meta property="article:modified_time" content="2015-04-28T22:56:20.472Z" />
+    <meta property="article:modified_time" content="2015-04-28T23:43:47.789Z" />
     <meta property="article:tag" content="node.js" />
     <meta property="article:tag" content="io.js" />
     <meta property="article:tag" content="practice" />
@@ -53,7 +53,7 @@
     "headline": "The Node.js Holy War",
     "url": "http://n.ode.rocks/2015/04/28/The-Nodejs-Holy-War.html",
     "datePublished": "2015-04-28T06:00:00.000Z",
-    "dateModified": "2015-04-28T22:56:20.472Z",
+    "dateModified": "2015-04-28T23:43:47.789Z",
     "image": "https://ununsplash.imgix.net/photo-1428604467652-115d9d71a7f1?dpr=2&amp;fit=crop&amp;fm=jpg&amp;h=750&amp;q=75&amp;w=1250",
     "keywords": "node.js,  io.js,  practice,  theory,  politics,  culture shock,  origin stories",
     "description": "It&amp;#8217;s the new EMACS vs. VI. I&amp;#8217;m pretty sure I just felt the collective shudder you all just had when you read that. The vitriol that has perpetuated in such a simple choice as preferred text..."
@@ -110,7 +110,7 @@
 <p>It was here that I started seeing the inklings of conflict. I found that many newcomers were finding a portion of the community was uncomfortable with, and sometimes hostile to, their learning of the language. This portion generally were people who were already getting paid well in their companies, and have been in the programming industry for years, sometimes decades. That kind of experience was something I usually deferred to, but when an associate of mine said that we needed fewer programmers entering the field, referring to these quick 5 or 6 week courses to introduce people to programming, I was a little taken aback. This is open source, right? Don&#8217;t we need all the brains we can get? I know for myself that the more people I have to talk code with, the faster I can get a job done, because our collective intelligence is much more advanced than my individual intellect. I found the idea of making the barrier of entry smaller to be an altruistic and beneficial appreach, and that kind of elitism confused me. It was told to me that they wouldn&#8217;t understand the theory, that they&#8217;d just do what their companies need and pollute the ecosystem of development with crappy unreadable code.</p>
 </div>
 <div class="paragraph">
-<p>Then I moved on to large OSS projects like io.js. I started digging in and trying to learn about native moduling and more low-level implementations, and I started to see a very distinct pull of many developers toward a very theoretical approach to APIs and implementations, regardless of it&#8217;s practical application. Take, for example, this <a href="https://github.com/domenic/promises-unwrapping/issues/75#issuecomment-28641857">appeal to algebraic consistency in the implementation of Promise.race</a>. Or the <a href="https://streams.spec.whatwg.org/">spec designed to shoehorn Streams into a Promise-like API</a>, even though the spec on Promises doesn&#8217;t allow for bailing on a connection, or even pausing it, two features absolutely critical to future compatibility with current modules.</p>
+<p>Then I moved on to large OSS projects like io.js. I started digging in and trying to learn about native moduling and more low-level implementations, and I started to see a very distinct pull of many developers toward a very theoretical approach to APIs and implementations, regardless of it&#8217;s practical application. Take, for example, this <a href="https://github.com/domenic/promises-unwrapping/issues/75#issuecomment-28641857">appeal to algebraic consistency in the implementation of Promise.race</a>. Or the <a href="https://streams.spec.whatwg.org/">spec designed to shoehorn Streams into a Promise-like API</a>, even though the spec on Promises doesn&#8217;t allow for bailing on a connection, or even pausing it, two features absolutely critical to future compatibility with current modules*.</p>
 </div>
 <div class="paragraph">
 <p>I understand the need for proper theory in development. It helps in implementation and seeing larger issues before we hit them in the real world. I think, however there are <strong>many</strong> issues that present themselves when we put too much emphasis on theory and book-application, and not enough on practical application and final use cases. The linked examples above are a few of the on-paper issues that arise, while that sense of elitism and cloistered-monk-brotherhood mentality I saw previously prevents people from learning, who themselves could bring great contributions into the development world.</p>
@@ -126,6 +126,9 @@
 </div>
 <div class="paragraph">
 <p><em>What do you think? Do you prefer theory over implementation? or vice versa? Comment below with how you have approached this issue in the past.</em></p>
+</div>
+<div class="paragraph">
+<p><em>*Note: While the Promises spec doesn&#8217;t allow for backpressure/pausing/bailing, <a href="https://streams.spec.whatwg.org/#example-rs-push-backpressure">Streams do implement an API for it</a>; This API is not part of the normal spec for Promises, and will be Streams specific for anyone trying to learn it, hence the term "shoehorning"</em></p>
 </div>
         </section>
 
